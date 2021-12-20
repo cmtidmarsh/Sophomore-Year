@@ -1,0 +1,11 @@
+R15.18
+The union of two sets A and B is the set of all elements that are contained in A, B, or both. The intersection is the set
+of all elements that are contained in A and B. How can you compute the union and intersection of two sets, using the add
+and contains methods, together with an iterator?
+
+
+
+R15.19
+How can toy compute the union and intersectio nof two sets, using some of the meothods that the java.util.Set interface
+provides, but without using an iterator? (Look up the interface in the API documentation)
+

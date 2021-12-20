@@ -1,0 +1,37 @@
+C212: Chapters 9-11
+Chapter 9
+Inheritance
+1. You can always use a subclass object in place of a superclass object. (pg 424)
+2. A subclass inherits all methods that it does not override. (428)
+3. A subclass can override a superclass method by providing a new implementation.  (429)
+4. The extends reserved word indicates that a class inherits from a superclass. (429)
+5. An overriding method can extend or replace the functionality of the superclass method. (433)
+6. Polymorphism allows us to manipulate objects that share a set of tasks even though the tasks are executed in different ways. (440)
+7. If you know that an object belongs to a given class, use a cast to covert the type (453)
+8.The instanceof operator tests whether an object belongs to a particular type (ibid.)
+9. Override the toString method to yield a string that describes the object’s state (449)
+10. A subclass reference can be used when a superclass reference is expected. (439)
+Chapter 10
+Interfaces
+1. A java interface type declares the methods that can be applied to a variable of that type. (pg 467)
+2. Use the implements reserved word to indicate that a class implements an interface type (469)
+3. You can convert from a class type to an interface type, provided the class implements the interface (476)
+4. Method calls on an interface reference are polymorphic. The appropriate method is determined at runtime. (476)
+5. Implement the Comparable interface so that objects of your class can be compared. (477)
+6. A callback is a mechanism for specifying code that is executed at a later time. (482)
+7. An inner class is declared inside another class. Inner classes are commonly used of utility classes that should not be visible elsewhere in a program (488)
+8. A mock object provides the same services as another object, but in a simplified manner (489)
+9. User-Interface events include key presses, mouse moves, button clicks, menu selections, and so on. (491)
+10. Use Button components for buttons. Attach an ActionListener to each button (492)
+Chapter 11
+I/O and Exception Handling
+1. When writing text files, use the printWriter class and the print/println/printf methods (pg 520)
+2. Close all files when you are done processing them. (521)
+3. The next method reads a string that is delimited by white space (525)
+4. The hasNextLine method returns true if there is at least one more line in the input, false when all lines have been read. To ensure that there is another line to process, call the hasNextLine method before calling nextLine. (527)
+5.To obtain the number value in a string that contains digits, use the Integer.parseInt or Double.parseDouble methods (528)
+6. There are two aspects to dealing with program errorsL detection and handling. In java, exception handling provides a flexible mechanism for passing control from the point of error detection to a handler that can deal with the error. (540)
+7. Checked exceptions are due to external circumstances that the programmer cannot prevent. The compiler checks that your program handles these exceptions (544)
+8. To describe an error condition provide a subclass of an existing exception class (546)
+9. For each exception, you need to decide which part of your program can competently handle it (550)
+10, the try-with-resources statement ensures that a resource is closed when the statement ends normally or due to an exception (545)

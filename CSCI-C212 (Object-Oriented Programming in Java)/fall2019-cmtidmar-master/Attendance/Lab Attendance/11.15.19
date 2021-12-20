@@ -1,0 +1,27 @@
+       Chapter 18
+--------------------------
+
+1. In Java, generic programming can be achieved with inheritance or with type parameters. A generic class has oen or more type
+parameters. Type parameters can be instantiated with calss or interface types. (pp. 824)
+
+2. Type parameters make generic code safer and easier to read. (825)
+
+3. Type variables of a generic class follow the class name and are enclosed in angle brackets. Use type parameters for the 
+types of generic instance variables, method parameter variables, and return values. (827)
+
+4. A generic method is a meod with a type parameter. (829)
+
+5. Supply the type parameters of a generic method between the modifiers and the method return type. When calling
+a generic method, you need not instantiate the type parameters. (830)
+
+6. Type parameters can be constained with bounds. (831)
+
+7. The virtual machine erases types parameters, replacing them with their bounds or Objects (835)
+
+8. You cannot construct objects or arrays of a generic type (836)
+
+9. Wildcard type is a type that can remain unknown,  For example, we can declare the following method in the LinkedList<E> 
+class. (834)
+
+10. Note the call obj.getMeasure(). The variable obj has type E, and E is a subtype of Measurable. Therefore, we know 
+that it is legal to apply the getMeasure method to obj. (832)

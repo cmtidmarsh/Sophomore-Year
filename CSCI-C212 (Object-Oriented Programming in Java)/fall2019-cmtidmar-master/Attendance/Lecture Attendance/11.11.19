@@ -1,0 +1,25 @@
+Chapter 17
+
+1. A tree is composed of nodes, each of wich can have child nodes. The root is the node with no parent. A leaf
+    is a node with no children. (pp. 766)
+    
+2. A tree uses a node class to represent nodes and has an instance variable for the root node (768)
+3. Many tree properties are computed with recursive methods (768)
+
+4. A binary tree consists of nodes, each which has at most two child nodes. (770)
+
+5. An expression tree shows the order of evaluation in an arithmetic expression. (771)
+
+6. In a balanced tree, all paths from the root to the leaves have appropximately the same length (772)
+
+7. All nodes in a binary search tree fulfill the property that the descendants to the left have smaller
+    data values than the node data value, and the descendants to the right have larger data values. (775)
+    
+8. To insert a value into a binary search tree, keep comparing the value with the node data and follow the
+    nodes to the left or right, until reaching a null node. (776)
+    
+9. When removing a node with only one child from a binary search tree, the child replaces the node to be removed.
+    When removing a node with two children from a binary search tree, repalce it with the smallest node of the right subtree. (779)
+    
+10. In a balanced tree, all paths from the root to the leaves have about the same length. If a binary
+    search tree is balanced, then adding, locating, or removing an element takes O(log(n)) time. (780)

@@ -1,0 +1,55 @@
+In class exam answer
+---------------------------------------------
+
+isPermutationOf(Sequence other){
+    Sequence s1 = this.other;       // The correct way should have been this.values
+    Sequence s2 = this.other;       // and other.values (I don't know what I was thinking during the exam)
+    
+    if (s1.size().equals(s2.size()){
+        for (i = 0; i > 0; i++){      // i should have been initialized to "int i = 0"
+            s1.get(i);
+            for (j = 0; j > 0; j++){    // j should have been initialized to "int j = 0"
+                s2.get(j);
+                if (s1[i].equals(s2[j]){
+                     return true; }
+                else {
+                  return false; }
+                  }
+               }
+            }
+          
+          What the answer should have been
+   // -------------------------------------------------   
+   import java.util.Collections;
+   public boolean isPermutationOf(Sequence other) {
+
+       ArrayList<Integer> list1 = this.values;
+
+       ArrayList<Integer> list2 = other.values;
+
+      
+
+       Collections.sort(list1);
+       Collections.sort(list2);
+       if(list1.equals(list2))
+           return true;
+       return false;
+
+   }
+
+  
+   public static void main(String[] args) {
+       Sequence a = new Sequence();
+       a.add(1);
+       a.add(4);
+       a.add(9);
+       a.add(16);
+       Sequence b = new Sequence();
+       b.add(16);
+       b.add(9);
+       b.add(4);
+       System.out.println(a.isPermutationOf(b));
+
+   }
+
+}

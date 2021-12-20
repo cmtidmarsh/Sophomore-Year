@@ -1,0 +1,41 @@
+
+  
+Attendance Chapters 5, 6, 7, 8
+
+1. The if statement allows a program to carry out different actions deepending on the nature of the data to be processed.
+2. use relational operators to compare numbers.
+3. Relational operators compare values. The == operator tests for equality.
+4. When comparing floating point numbers, dont test for equality instead check whether they are close enough
+5. Do not use the == operator to compare strings. Use the equals methodd instead.
+6. The compareTo method compares strings in lexicographic order.
+7. The == operator tests whether two object references are identical. To compare the contents of objects, you need to use the equals methods.
+8. The null reference fers to no object
+9. Multiple if statements can be combined to eval. complex decisions.
+10. When using multiple if statements, test gen. conditions after more specific conditions
+
+Chap 6
+
+1. A loop executes instructions repeatedly while a condition is true.
+2. Hand tracing can help you understand how an unfamiliar algorithm
+3. Hand tracing can show errors in code
+4. The for loop is used when a value runs from a starting point to an ending ppoint with a constant inscrement or decrement.
+
+Chap 7
+1. an array collects a sequence of values of the same type
+2. individual elements in an array are accessed by an int. by an int Index i, use the notation array[i]
+3. an array elemt can be used like any variable
+4. an array index must be at least 0 and less than the size of the array
+5. A bounds error, which occurs if you supply an invalid array index, can cause your program to terminate.
+
+
+Chap 8
+1. a class should represent a single concept from a problem domain such as business, science, or math
+2. The public interface of a class sis cohesive if all of its features are related to the concept that the class represents
+3. a ckass depends on another class if its methods use that class in anyway 
+4. an immutable class has no mutator methods
+5/ references to objects of an immutabble class can be safely shared
+6. a sude effect if a method is any externall observable data mod.
+7. when designing methods, minimize side effects
+8. an instance variable for the total is updated in methods that increase or decrease the total amount.
+9. a counter that counts events is inscremented in methods that correspond to the events.
+10. an object can collect other objects in an array or array list.

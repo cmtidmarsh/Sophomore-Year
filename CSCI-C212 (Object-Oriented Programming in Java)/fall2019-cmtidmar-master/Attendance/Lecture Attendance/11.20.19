@@ -1,0 +1,27 @@
+      Chapter 20
+------------------------
+
+1. User-interface components are arranged by placing them inside containers. Containers can be placed inside larger containers.
+Each container has a layout manager that directs the arrangement of its components.
+Three useful layout managers are the border layout, and grid layout . (884)
+
+2. When adding a component to a container with the border layout, specify the NORTH, SOUTH, WEST, EAST, or CENTER position.
+The content pane of a frame has a border layout by default. A panel has a flow layout by default. (885)
+
+3. Use a JTestField component for reading a single line of input. Place a JLabel next to each text field. (888)
+
+4. Use a JTextArea to show multiple lines of text. (891)
+
+5. You can add scroll bars to any component with a JScrollPane. (892)
+
+6. For a small set of mutually exclusive choices, use a group of radio buttons or a combo box. Add radio buttons to a ButtGroup
+so that only one button in the group is selected at any time. (894)
+
+7. You can place a border around a panel to group its contents visually. For a binary choice, use a check box. (895)
+
+8. For a large set of choices, use a combo. Radio buttons, check boxes, and combo boxes generate action events, just as buttons
+do. (896)
+
+9. A frame contains a menu bar. The menu bar contains menus. A menu contains submenus and menu items. (905)
+
+10. You should learn to navigate the API documentation to find out more about user-interface components. (911)

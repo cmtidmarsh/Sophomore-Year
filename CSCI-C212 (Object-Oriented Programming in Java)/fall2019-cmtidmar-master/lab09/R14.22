@@ -1,0 +1,6 @@
+What is the big-Oh time of this algorithm in terms of n and d?
+O(n*d)
+
+When is this algorithm preferable to merge sort?
+It is preferable to merge sort when you have a short array of integers that have a wide range (i.e. an array of 10 digits
+ranging from 0 to 999).

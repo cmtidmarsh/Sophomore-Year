@@ -1,0 +1,51 @@
+Chapter 15
+1. A collection groups together elements and allows them to be retrieved later (678)
+
+2. A list is a collection that remembers the order of its elements. A set is an unordered collection of 
+unique elements. A map keeps associations between key and value objects. (679)
+
+3. A linked list consists of a number of nodes, each of which as a reference to the next node. (681)
+
+4. Adding and removing elements at a given location in a linked list is efficient. Visiting the elements of a linked
+list in sequential order is efficient, but random access is not (682)
+
+5. You can use a list iterator to access elements inside a linked list. (683)
+
+6. The HashSet and TreeSet classes both implement the Set interface. Set implementations arrange the elements so that
+they can locate them quickly. You can form hash sets holding objects of type String, Integer, Double, Point, Rectangle,
+or Color. (687)
+
+7. You can form tree sets for any class that implements the Comparable interface, such as String or Integer. Sets don't have
+duplicates. Adding a duplicate of an element that is already present is ignored. (688)
+
+8. A set iterator visits the elements in the order in which the set implementation keeps them. You cannot add an element
+to a set at an iterator position. (689)
+
+9. The HashMap and TreeMap classes both implement the Map interface. (692)
+
+10. To find all keys and values in a map, iterate through the key set and find the values that correspond to the keys. (693)
+
+
+
+Chapter 16
+
+1. A linked list object hold a reference to the first node object holds a reference to the next node. (722)
+
+2.When adding or removing the first element, the reference to the first node must be updated. (723)
+
+3. a list iterator object has a reference to the last visited node. (724)
+
+4. To advance an iterator, update the position and remember the old position for the remove method. (725)
+
+5. In a doubly-linked list, accessing an element is an O(n) operation; adding and removing an element is O(l) (729)
+
+6. Getting or setting an array list element is an O(l) operation. (738)
+
+7. Inserting or removing an array list element is an O(n) operation. (739)
+
+8. Adding or removing the last element in an array list takes amortized O(l) time. (740)
+
+9. A stack can be implemented as a linked list, adding and removing elements at the front. (741)
+
+10. When implementing a stack as an array list, add and remove elements at the back. A queue can be implemented as a
+linked list, adding elements at the back and the removing them at the front. (743)

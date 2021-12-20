@@ -1,0 +1,99 @@
+1 pt/question
+
+Write Java Code to calculate the following expressions with Big Decimal objects:
+1. Self: 20, Actual: 20             +1
+2. Self: 20, Actual: 20             +1
+
+                             Total: 2/2
+Evaluate the follow Java Expressions:
+3. Self: 4,       Actual: 4         +1
+4. Self: 7,       Actual: -7        +0.5 basic mistake, forgot to put a - sign
+5. Self: 5/12,    Actual: 3         Forgot that in Java it still reduces
+6. Self: 4,       Actual: 3         Forgot that 4 can go into 15 3 times with a remainder of 3
+7. Self: 4,       Actual: 4         +1
+8. Self: 3,       Actual: 3         +1
+9. Self: -4,      Actual: -4        +1
+10. Self: 7,      Actual: 3         Forgot that the remainder would be 3
+11. Self: True,   Actual: True      +1
+12. Self: False,  Actual: False     +1
+13. Self: gpl,    Actual: gpl       +1
+14. Self: 4,      Actual: 4         +1
+15. Self: 5,      Actual: 4         I believe I forgot to start from 0 as the frist character, \(0), \(1), \n(next line), m(2), \(3), "(4)
+16. Self: N/A     Actual: 1         Forgot to answer the problem but it should be 1 because 2 goes into 3 once
+17. Self: 1.5,    Actual: 1.5       +1
+
+                             Total: 9.5/15
+Assuming n is an int with a value of 5, what do these expressions evaluate to:
+18. Self: 5,      Actual: 6         Mixed up problems 18 and 19, if ++ is before the variable, 1+value of variable before operation
+19. Self: 6,      Actual: 5         Mixed up problems 18 and 19, if ++ is after the variable, do the operation then add 1
+20. Self: false,  Actual: false     +1
+21. Self: true,   Actual: False      I made the mistake in 18 and 19, so it should be 6 > 6, which is false.
+22. Self: -1,     Actual: -1        +1
+23. Self: true,   Actual: true      +1
+
+                             Total: 3/6
+
+Assuming that a is a boolean variable what is the value of these expressions:
+24. Self: false, Actual: false      +1
+25. Self: true,  Actual: true       +1
+26. Self: false, Actual: false      +1     
+27. Self: true,  Actual: false      false or false = false
+28. Self: false, Actual: false      +1
+29. Self: true,  Actual: true       +1
+                                
+                               Total: 5/6
+
+Assuming that a is a boolean variable please simplfy these expressions:
+30. Self: N/A,  Actual: false     I forgot that the default boolean value is false.
+31. Self: true, Actual: false     Because the statement "false does not equal false" is false. False equals false.          
+32. Self: N/A,  Actual:           true, because you're setting a to a boolean which could either be true or false.
+33. Self: false, Actual: false    +1
+                              
+                              Total: 1/4
+
+Assuming that n is an int variable what does these expressions evaluate to:
+34. Self: 4,    Actual: 4         +1
+35. Self: true, Actual: true      +1
+36. Self: false, Actual: false    +1
+37. Self: false, Actual: false    +1
+  
+                              Total: 4/4
+Determine the balue of n at the end of the following fragments of code:
+38. Self: n=1, Actual: n=1        +1
+39. Self: n=1, Actual:n=1         +1
+40. Self: n=2, Actual:n=2         +1
+41. Self: n=1, Actual: n=10?      ??????????????
+
+                             Total: 3/4
+
+What is a dangling else? Give an example:
+42. Self: A dangling else is when else is not apart of an if statement inside the function
+    if (x==3) x = x+1; else x=6;
+    
+    Actual: A dangling else is an else statement outside of the nested if statements.
+    if (x==3)
+        if (x==2)
+            x = x + 1;
+    else
+        x = 6;
+        
+   +0.5, based on what a dangling else actually is, I feel like I got the description correct, but the example was missing a  couple lines.
+
+    0.5/1
+Assuming that a has a boolean value and n is an int please simplify the following expressions:
+43. Self: false == true,    Actual: a = false   I didn't study/understand how to simply expressions
+44. Self: true != false,    Actual: a = true    Didn't understand how to simply expressions
+45. Self: true && false,    Actual: a = true    Didn't understand how to simply expressions
+46. Self: if (n !=3) a = false; else a = true; , Actual: a = false
+47. Self: if (n==3) a = true; else a = false;  , Actual: a = false
+48. Self: a = false; if (n==4) a = true;    , Actual: .......
+49. Self: if (n>1) a = false; else a = true  , Actual: ......
+
+                                              Total: 0/7
+
+Are these two fragments equivalent? Why or why not?
+50. Self: Yes, because if 8==8 then do n = n+3. If n!=8 (does not equal 8) else then n = 5. 
+    Actual: Yes.
+    +1
+    
+    1/1
